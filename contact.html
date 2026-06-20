@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contact Us | Mid-Florida Wildlife Services</title>
+<meta name="description" content="Request a free home inspection or call 352-434-9110. Serving Central Florida, Monday through Friday, 8am–5pm.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;600;700;800&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- Scrolling ticker -->
+<div class="top-ticker" role="region" aria-label="Announcements">
+  <div class="ticker-track">
+    <span class="ticker-item"><a href="contact.html">Call Today For Your Free Home Inspection!</a></span>
+    <span class="ticker-sep">★</span>
+    <span class="ticker-item">Get Them Out! Keep Them Out!</span>
+    <span class="ticker-sep">★</span>
+    <span class="ticker-item">Florida's Most Trusted Animal Removal &amp; Exclusion Specialists</span>
+    <span class="ticker-sep">★</span>
+    <span class="ticker-item">Licensed, Insured &amp; Family-Owned</span>
+    <span class="ticker-sep">★</span>
+    <span class="ticker-item"><a href="contact.html">Call Today For Your Free Home Inspection!</a></span>
+    <span class="ticker-sep">★</span>
+    <span class="ticker-item">Get Them Out! Keep Them Out!</span>
+    <span class="ticker-sep">★</span>
+    <span class="ticker-item">Florida's Most Trusted Animal Removal &amp; Exclusion Specialists</span>
+    <span class="ticker-sep">★</span>
+    <span class="ticker-item">Licensed, Insured &amp; Family-Owned</span>
+    <span class="ticker-sep">★</span>
+  </div>
+</div>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="index.html" class="brand">
+      <span class="logo-slot" style="width:230px;height:50px;">
+        <img src="images/logo-full.png" alt="Mid-Florida Wildlife Services">
+      </span>
+    </a>
+    <nav class="main-nav" aria-label="Primary">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <a href="tel:3524349110" class="header-call">
+      <svg viewBox="0 0 24 24"><path d="M6.6 10.8c1.4 2.7 3.6 4.9 6.3 6.3l2.1-2.1c.3-.3.7-.4 1-.2 1.1.4 2.3.7 3.5.8.6 0 1 .5 1 1V20c0 .6-.4 1-1 1-9.4 0-17-7.6-17-17 0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 .1 1.2.4 2.4.8 3.5.1.4 0 .8-.2 1.1l-2 2z"/></svg>
+      <span class="call-text">352-434-9110</span>
+    </a>
+    <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+      <svg viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </button>
+  </div>
+</header>
+
+<div class="page-header">
+  <div class="container">
+    <span class="eyebrow">Let's get them out</span>
+    <h1>Contact Us</h1>
+    <p>Fill out the form below or call us directly — we'll be in touch shortly.</p>
+  </div>
+</div>
+
+<section>
+  <div class="container contact-layout">
+
+    <!--
+      TODO: Replace the form action URL below with the real Formspree
+      endpoint (e.g. https://formspree.io/f/your-form-id) once the business
+      owners have created a Formspree account and form.
+    -->
+    <form class="contact-form" action="https://formspree.io/f/REPLACE_WITH_REAL_FORMSPREE_ID" method="POST">
+      <div class="form-row">
+        <label for="name">Full name</label>
+        <input type="text" id="name" name="name" required autocomplete="name">
+      </div>
+      <div class="form-row">
+        <label for="phone">Phone number</label>
+        <input type="tel" id="phone" name="phone" required autocomplete="tel">
+      </div>
+      <div class="form-row">
+        <label for="email">Email address</label>
+        <input type="email" id="email" name="email" required autocomplete="email">
+      </div>
+      <div class="form-row">
+        <label for="city">City / area</label>
+        <input type="text" id="city" name="city" autocomplete="address-level2" placeholder="e.g. Ocala, The Villages, Inverness">
+      </div>
+      <div class="form-row">
+        <label for="issue">What's the issue?</label>
+        <select id="issue" name="issue" required>
+          <option value="">Select one</option>
+          <option value="Rats or mice">Rats or Mice</option>
+          <option value="Bats">Bats</option>
+          <option value="Squirrels">Squirrels</option>
+          <option value="Opossums">Opossums</option>
+          <option value="Raccoons">Raccoons</option>
+          <option value="Not sure / other">Not sure / Other</option>
+        </select>
+      </div>
+      <div class="form-row">
+        <label for="message">Tell us what's going on</label>
+        <textarea id="message" name="message" placeholder="What did you hear or see, and where? (attic, walls, garage, etc.)"></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary btn-block">Send Request</button>
+      <p class="form-note">We typically respond within one business day. For anything urgent, please call us directly at <a href="tel:3524349110">352-434-9110</a>.</p>
+    </form>
+
+    <div class="contact-info-card">
+      <h3>Reach Us Directly</h3>
+      <div class="info-row">
+        <span class="label">Phone</span>
+        <a href="tel:3524349110">352-434-9110</a>
+      </div>
+      <div class="info-row">
+        <span class="label">Email</span>
+        <a href="mailto:CustomerConnect@MidFloridaWildlife.com">CustomerConnect@MidFloridaWildlife.com</a>
+      </div>
+      <div class="info-row">
+        <span class="label">Business Hours</span>
+        <span>Monday–Friday, 8am–5pm</span>
+      </div>
+      <div class="info-row">
+        <span class="label">Service Area</span>
+        <span>Central Florida — Marion, Sumter, Lake &amp; Citrus counties, and beyond by request.</span>
+      </div>
+      <div class="info-row">
+        <span class="label">Follow Us</span>
+        <a href="https://www.facebook.com/share/14Qt42vCgKy/" target="_blank" rel="noopener">Facebook →</a>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <span class="logo-slot" style="width:230px;height:52px;display:block;margin-bottom:.85rem;">
+          <img src="images/logo-full.png" alt="Mid-Florida Wildlife Services">
+        </span>
+        <p>Get Them Out. Keep Them Out. Licensed and insured wildlife removal &amp; exclusion serving Central Florida.</p>
+        <p><a href="https://www.facebook.com/share/14Qt42vCgKy/" target="_blank" rel="noopener">Follow us on Facebook →</a></p>
+      </div>
+      <div>
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <ul>
+          <li><a href="tel:3524349110">352-434-9110</a></li>
+          <li><a href="mailto:CustomerConnect@MidFloridaWildlife.com">CustomerConnect@MidFloridaWildlife.com</a></li>
+          <li>Mon–Fri, 8am–5pm</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© <span id="year"></span> Mid-Florida Wildlife Services. All rights reserved.</span>
+      <span>Licensed &amp; Insured</span>
+    </div>
+  </div>
+</footer>
+
+<div class="mobile-call-bar">
+  <a href="tel:3524349110">
+    <svg viewBox="0 0 24 24"><path d="M6.6 10.8c1.4 2.7 3.6 4.9 6.3 6.3l2.1-2.1c.3-.3.7-.4 1-.2 1.1.4 2.3.7 3.5.8.6 0 1 .5 1 1V20c0 .6-.4 1-1 1-9.4 0-17-7.6-17-17 0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 .1 1.2.4 2.4.8 3.5.1.4 0 .8-.2 1.1l-2 2z"/></svg>
+    Call Now: 352-434-9110
+  </a>
+</div>
+
+<script src="js/main.js"></script>
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
